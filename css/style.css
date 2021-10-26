@@ -1,0 +1,108 @@
+*{
+    margin:0;
+}
+
+
+nav{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 8px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://www.pngarchive.com/public/uploads/preview/a-slice-of-cheese-11559732858gkvjrgm87o.png");
+    margin: 20px 80px;
+    display: flex;
+    align-items: baseline;
+
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://th.bing.com/th/id/R.84de442c5cf8b4605b9b96e82dc55ae7?rik=j9N3YX9T05UKDw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f200000%2fvelka%2fcheese-1476708512CtV.jpg&ehk=CGiWi2z21zaOhZST5qElTiClKum%2fEWcCzfJkUo8lIt8%3d&risl=&pid=ImgRaw&r=0");
+    margin: 20px 80px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://th.bing.com/th/id/R.2c5ebb4a13b0dfa036b9da0bb7b74d7f?rik=SjdosyG0NitGng&riu=http%3a%2f%2fimages.gofreedownload.net%2f3%2fshiny-cheese-background-art-vector-69183.jpg&ehk=exD9WS7InA5DKyzbQtTOD9XHDj8pazNJ3fsHwKUsaGY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+    margin: 20px 80px;
+    display: flex;
+    align-items: baseline;
+
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://www.pngarchive.com/public/uploads/preview/a-slice-of-cheese-11559732858gkvjrgm87o.png");
+    margin: 20px 80px;
+    display: flex;
+    align-items: baseline;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+
+    text-align: center;
+}
+.container2{
+    min-height: 200px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+@media screen and (max-width: 800px){
+    .container{
+
+        padding-bottom: 8px;
+        float: left;
+        background-color: red;
+    }
+    p{
+        float: left;
+    }
+}
+@media screen and (max-device-width: 800px){
+    .container{
+        width: 100%;
+        float: bottom;
+    }
+
+}
